@@ -10,8 +10,8 @@ int toNumber(const std::string& str) {
 }
 
 int main() {
-    std::string str;
-    std::cin >> str;
+    std::string str = "123";
+
     std::cout << toNumber(str) << std::endl;
     return 0;
 }
